@@ -1,0 +1,21 @@
+{
+  "name": "introduction",
+  "version": "1.0.0",
+  "description": "intro to nodejs test app",
+  "main": "indexApp.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "introduction",
+    "tutorial"
+  ],
+  "author": "me",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Todo List</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link href="./assets/styles.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1>My logo</h1>
+    <div id="todo-table">
+      <form>
+        <input type="text" name="item" placeholder="Add a new item..." required />
+        <button type="submit">Add item</button>
+      </form>
+      <ul>
+        <% todos.map(function(task){ %>
+          <li><%=task.item%></li>
+        <% }); %>
+      </ul>
+    </div>
+  </body>
+  <script src="./assets/todo-list.js"></script>
+</html>

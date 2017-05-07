@@ -1,0 +1,25 @@
+{
+  "name": "task-list",
+  "version": "1.0.0",
+  "description": "To-do list",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "introduction_to_node_js"
+  ],
+  "author": "Mp_Libunao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config": "^1.26.1",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "request": "^2.81.0"
+  }
+}

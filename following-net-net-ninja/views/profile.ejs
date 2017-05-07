@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../assets/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <% include partials/nav.ejs %>
+    <h1>Welcome to the profile of <%= person %> </h1>
+    <p><strong>Age:</strong> <%= data.age %></p>
+    <p><strong>Job:</strong> <%= data.job %></p>
+    <h2>Hobbies</h2>
+    <% data.hobbies.map(function(hobby){ %>
+      <li><%= hobby %></li>
+    <% }); %>
+  </body>
+</html>
